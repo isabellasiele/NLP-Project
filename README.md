@@ -1,4 +1,6 @@
 # **Twitter Sentiment Analysis Group Project**
+![Sentiment Analysis Results](images/sentiment-analysis.jpg)
+
 ## **Business Understanding**
 ### **Overview**
 This project aims to build NLP models that can predict the sentiment of tweets for Apple and Google products as either positive, negative or neutral.
