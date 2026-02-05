@@ -23,10 +23,20 @@ A countplot for sentiment distribution![A countplot for sentiment distribution](
 A wordcloud for each sentiment![A wordcloud for each sentiment](images/Wordcloud.jpg)
 ## **Modeling and Evaluation**
 ### **Binary Classifier**(Positive and Negative Sentiments)
-Trained a logistic regression model,a random forest, a multinomial naive bayes model and a linearSVC model. According to the following results, the random forest model performed best with a higher accuracy, recall and F1 score.
+Trained a random forest, a multinomial naive bayes model and a linearSVC model. According to the following results, the random forest model performed best with a higher accuracy, recall and F1 score.
 ![Binary evaluation results](images/Binary_models.jpg)
 ### **Multiclassifier Modeling**(Positive,Negative and Neutral Sentiments)
-Trained a logistic regression model,a random forest, a multinomial naive bayes model, a linearSVC model and a XGBoost model. According to the following results, the random forest model performed best with a higher accuracy, recall and F1 score.
+Trained a a random forest, a complement naive bayes model, a linearSVC model and a XGBoost model. According to the following results, the random forest model performed best with a higher accuracy, recall and F1 score.
 ![Multiclass evaluation results](images/Multi_class_models.jpg)
+## **conclusions**
+1. The support vector machine model was the most effective for this dataset. It balances
+performance across all sentiment classes.
+
 ## **Recommendations**
-## **Conclusions**
+1. SVM is recommended as the primary sentiment classification model due to its balanced
+performance across sentiment classes.
+2. Adopt a hybrid modeling approach, combining Naive Bayes for risk screening and SVM for
+accurate sentiment confirmation and reporting.
+3. Align model choice with business objectives, prioritizing recall for risk monitoring and
+balanced performance for overall sentiment analysis.
+
