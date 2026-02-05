@@ -31,8 +31,8 @@ A countplot for sentiment distribution![A countplot for sentiment distribution](
 ## **Modeling and Evaluation**
 Multiclass sentiment classification was performed on Positive, Negative, and Neutral tweets. Models trained: Complement Naive Bayes, LinearSVC, and Random Forest using TF-IDF features and class weighting. Evaluation used Precision, Recall, F1-score, and Macro F1-score. LinearSVC achieved the best Macro F1-score, indicating the most balanced performance across all classes.
 
-## **conclusions**
-1. The support vector machine model was the most effective for this dataset. It balances
+## **conclusion**
+The support vector machine model was the most effective for this dataset. It balances
 performance across all sentiment classes.
 
 ## **Recommendations**
